@@ -151,10 +151,13 @@ main{
 }
 .call-us .text--cta{
 
-    @apply flex flex-col items-center text-center gap-1
+    @apply items-center text-center
+}
+.text--cta{
+
+    @apply flex flex-col gap-1
 }
 .text--cta p{
-
     margin-top: 12px;
 }
 footer{
