@@ -115,3 +115,55 @@ li{
 
 
 /* hasta aqui */
+
+
+/* Home */
+
+.hero--container{
+    
+    @apply h-screen flex flex-col justify-center mx-4 sm:mx-12 lg:mx-20
+}
+
+
+main{
+    @apply m-4 sm:m-12 lg:m-20
+}
+
+.about-us{
+
+    @apply h-screen flex flex-col justify-center max-w-xl
+}
+.about-us--container{
+    @apply flex flex-col gap-6
+}
+.features--container{
+    margin: 100px auto;
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
+}
+.favorites--container{
+
+    margin: 100px auto;
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
+
+}
+.call-us{
+    height: 80vh;
+}
+.call-us .text--cta{
+
+    @apply flex flex-col items-center text-center gap-1
+}
+.text--cta p{
+
+    margin-top: 12px;
+}
+footer{
+    @apply m-4 sm:m-12 lg:m-20 grid grid-cols-1 sm:grid-cols-2 gap-5
+}
+.footer__contact-info h3{
+    margin-bottom: 20px;
+}
+.text--paragraph{
+    max-width: 600px;
+    @apply flex flex-col gap-5
+}
