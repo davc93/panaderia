@@ -120,21 +120,23 @@ li{
 /* Home */
 
 .hero--container{
-    
-    @apply h-screen flex flex-col justify-center mx-4 sm:mx-12 lg:mx-20
+    background: url('https://res.cloudinary.com/dxryc5jgr/image/upload/o_80/v1663199952/panaderia/unsplash_tOYiQxF9-Ys_jg6g0c.jpg');
+    background-size: cover;
+    @apply h-screen flex flex-col justify-center px-4 sm:px-12 lg:px-20
 }
 
 
-main{
-    @apply m-4 sm:m-12 lg:m-20
+section{
+    @apply p-4 sm:p-12 lg:p-20
 }
 
 .about-us{
-
-    @apply h-screen flex flex-col justify-center max-w-xl
+    background: url('https://res.cloudinary.com/dxryc5jgr/image/upload/o_70/v1663199955/panaderia/unsplash_N4gtuEZ5gWc_bx0q2l.jpg');
+    @apply h-screen flex flex-col justify-center 
+    
 }
 .about-us--container{
-    @apply flex flex-col gap-6
+    @apply flex flex-col gap-6 max-w-xl
 }
 .features--container{
     margin: 100px auto;
@@ -161,7 +163,7 @@ main{
     margin-top: 12px;
 }
 footer{
-    @apply m-4 sm:m-12 lg:m-20 grid grid-cols-1 sm:grid-cols-2 gap-5
+    @apply bg-secondary-300 p-4 sm:p-12 lg:p-20 grid grid-cols-1 sm:grid-cols-2 gap-5
 }
 .footer__contact-info h3{
     margin-bottom: 20px;
