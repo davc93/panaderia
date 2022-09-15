@@ -21,13 +21,13 @@ export function DesktopMenu() {
 
         {
             name: 'Home',
-            url: '/',
+            url: '/panaderia',
             routes: [
             ]
         },
         {
             name: 'Contact',
-            url: '/contact',
+            url: '/panaderia/contact',
             routes: [
             ]
         }
